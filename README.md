@@ -24,13 +24,17 @@ Four specialized AI agents collaborate to analyze stocks: Portfolio Manager (coo
 ```bash
 pip install crewai crewai-tools langchain-openai yfinance plotly
 export OPENAI_API_KEY='your-api-key-here'
+```
 
 ## Usage
+```bash
 # Analyze a stock
 result = analyze_stock('AAPL')
-
+```
 # Enhanced analysis with custom tools
+```bash
 result = enhanced_analyze_stock('NVDA')
+```
 Example Results
 
 TSLA: SELL at $322 | Targets: $300, $280, $250 | Risk/Reward: 3:1
