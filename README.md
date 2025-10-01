@@ -35,7 +35,7 @@ result = analyze_stock('AAPL')
 ```bash
 result = enhanced_analyze_stock('NVDA')
 ```
-Example Results
+## Example Results
 
 TSLA: SELL at $322 | Targets: $300, $280, $250 | Risk/Reward: 3:1
 GOOGL: BUY at $173 | Targets: $180, $185, $190 | Risk/Reward: 2.5:1
