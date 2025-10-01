@@ -31,7 +31,7 @@ export OPENAI_API_KEY='your-api-key-here'
 # Analyze a stock
 result = analyze_stock('AAPL')
 ```
-# Enhanced analysis with custom tools
+## Enhanced analysis with custom tools
 ```bash
 result = enhanced_analyze_stock('NVDA')
 ```
